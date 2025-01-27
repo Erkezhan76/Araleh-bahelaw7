@@ -1,0 +1,25 @@
+#container{
+width:450px;
+height: 250px;
+margin:0 auto;
+padding:20px;
+display:flex ;
+justify-content: center;
+align-items: center;
+background-color: aqua;
+}
+
+button{
+   border: none;
+   border-radius: 20px;
+   color: white;
+   background-color: rgb(5, 252, 149);
+   font-size: 25px;
+   transition-duration: 1s; 
+}
+button:hover{
+    opacity: 75%;
+    background-color: rgb(56, 3, 248);
+}
+
+
